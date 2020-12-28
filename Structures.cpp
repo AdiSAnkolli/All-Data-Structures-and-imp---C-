@@ -63,3 +63,22 @@ int main() {
 
    return 0;
 }
+
+//You can also pass them as a function arguement
+/*
+e.g)
+The same printing statement i can write as a function and pass the structure as an arguement.
+
+// This function accept pointer to structure as parameter.
+void printBook( struct Books *book ) {
+   cout << "Book title : " << book->title <<endl;
+   cout << "Book author : " << book->author <<endl;
+   cout << "Book subject : " << book->subject <<endl;
+   cout << "Book id : " << book->book_id <<endl;
+}
+
+
+to call this function, we need to call the function in the following way:-
+printBook( &Book1 )
+
+*/
