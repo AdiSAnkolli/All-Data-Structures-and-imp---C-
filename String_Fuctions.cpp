@@ -45,7 +45,7 @@ using namespace std;
 int main () {
 
    string str1 = "Hello";
-   string str2 = "World";
+   string str2 = "Loml";
    string str3;
    int  len ;
 
