@@ -1,3 +1,5 @@
+//All sorts of string declaration and functions
+
 #include <iostream>
 #include <cstring>
 
